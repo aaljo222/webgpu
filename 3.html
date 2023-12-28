@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // 0.1초 후에 자동으로 URL로 이동
+      setTimeout(function () {
+        var link = document.getElementById("myLink");
+        window.location.href = link.href;
+      }, 10);
+    </script>
+  </head>
+  <body>
+    <a href="./iframe/Graphics_ShadowCascades.html?param1=5" id="myLink"></a>
+  </body>
+</html>
